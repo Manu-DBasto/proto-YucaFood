@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #B23E41;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+h5{
+    text-align: center;
+}
+
+article{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F3F0E1;
+    border-radius: 15px;
+}
+    
+.description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden; /*hidden es un valor de CSS3*/
+    text-overflow: ellipsis; /*ellipsis es un valor de CSS3*/
+}
+
+.datails{
+    text-align: end;
+    color: #B23E41;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.2);
+    height: 80px;
+    width: 100%;
+    display: flex;  
+    box-shadow: 0px 3px -8px rgba(0,0,0,0.2);
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+    background: #B23E41;
+    transition: .5s;
+}
+
+.btnMenu{
+    height: 30px;
+}
+
+#check{
+    display: none;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#pagina_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+
+.informacion{
+    height: 30px;
+}
+
+.botonInformacion{
+    border-style: none;
+    background: none;
+    height: auto;
+}
+
+#contInformacion {
+    background-color: #B23E41; /* Fondo azul */
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    color: white; /* Color del texto */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+}
+.tituloInfo{
+    border-bottom: 1px solid white;
+}
+
+#btnSalir {
+    background: none;
+    border-style: none;
+    width: 100%;
+    border-top: 1px solid white;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+#btnSalir:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#cerrarSesion{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos para movil*/
+@media (max-width: 800px) {
+    .cuerpo_nav{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    article{
+        margin-bottom: 20px;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    
+    ul{
+        z-index: 999;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: white;
+        left: -100%;
+        transition: all .5s;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        line-height: 30px;
+
+    }
+    
+    nav ul li a{
+        font-size: 20px;
+        color: #494949;
+    }
+    
+    a:hover,a.active{
+        font-weight: bolder;
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .contLogo{
+        background-color: #B23E41;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #cerrarSesion{
+        background: #B23E41;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #cerrarSesion a{
+        color: white;
+    }
+    
+    #cerrarSesion a:hover{
+        color: white;
+    }
+
+    .titulo{
+        width: 250px;
+    }
+}
+
+/*Estilos para computadora*/
+@media (min-width: 801px) {
+    .logo{
+        display: none;
+        position: absolute;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+    article{
+        margin-bottom: 20px;
+        width: 700px;
+    }
+
+    .titulo{
+        margin-right: auto;
+    }
+
+    .cuerpo_nav{
+        justify-content: space-between;
+        padding: 0 10px 0 10px;
+    }
+}
