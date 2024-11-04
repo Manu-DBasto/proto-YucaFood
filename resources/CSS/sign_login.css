@@ -12,7 +12,7 @@ main{
     flex-direction: column; /*PROPIEDAD Y VALOR CSS3*/
     align-items: center; /*PROPIEDAD Y VALOR CSS3*/
     background-color: #B23E41;
-    justify-content: space-between;
+    gap: 80px;
 }
 
 .campo{
