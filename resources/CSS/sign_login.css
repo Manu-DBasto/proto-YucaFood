@@ -14,7 +14,7 @@ main{
     flex-direction: column; /*PROPIEDAD Y VALOR CSS3*/
     align-items: center; /*PROPIEDAD Y VALOR CSS3*/
     background-color: #B23E41;
-    gap: 80px;
+    justify-content: space-between;
 }
 
 .campo{
@@ -68,7 +68,7 @@ a{
     justify-content: center;
     justify-content: space-between;
     background-color: white;
-    height: 430px;
+    min-height: 430px;
     border-top-right-radius: 50px; /*PROPIEDAD CSS3*/
     border-top-left-radius: 50px; /*PROPIEDAD CSS3*/
 }
