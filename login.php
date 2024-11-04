@@ -26,7 +26,7 @@
             <h3 class="title">Iniciar sesión</h3>
         
             <form action="./resources/views/main.php">
-                <div class="separador">
+                <div class="separator">
                     <div class="cont_input">
                         <input type="text" placeholder="Nombre" class="campo" > <!--REQUIRED define que es necesario llenar el campo-->
                     </div>

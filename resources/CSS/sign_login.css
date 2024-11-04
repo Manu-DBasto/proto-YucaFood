@@ -67,8 +67,9 @@ a{
     justify-content: space-between;
     background-color: white;
     height: 430px;
+    border-top-right-radius: 50px; /*PROPIEDAD CSS3*/
+    border-top-left-radius: 50px; /*PROPIEDAD CSS3*/
 }
-
 
 /*Estilos para movil*/
 @media (max-width: 400px) {  /*@media es una regla CSS3*/
@@ -78,15 +79,4 @@ a{
         border-top-right-radius: 50px; /*PROPIEDAD CSS3*/
         border-top-left-radius: 50px; /*PROPIEDAD CSS3*/
     }
-}
-
-
-/* Estilo para computadoras*/
-@media (min-width: 401px) {
-    .main_container{
-        min-width: 300px;
-        max-width: 30%;
-        border-top-right-radius: 50px; /*PROPIEDAD CSS3*/
-        border-top-left-radius: 50px; /*PROPIEDAD CSS3*/
-    }    
 }
