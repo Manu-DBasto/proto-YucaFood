@@ -23,7 +23,7 @@
         </figure>
 
         <div class="main_container">
-            <h3 class="titulo">Iniciar sesión</h3>
+            <h3 class="title">Iniciar sesión</h3>
         
             <form action="./resources/views/main.php">
                 <div class="separador">

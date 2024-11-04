@@ -13,7 +13,6 @@ main{
     align-items: center; /*PROPIEDAD Y VALOR CSS3*/
     background-color: #B23E41;
     justify-content: space-between;
-
 }
 
 .campo{
@@ -67,6 +66,7 @@ a{
     justify-content: center;
     justify-content: space-between;
     background-color: white;
+    height: 430px;
 }
 
 
@@ -86,6 +86,7 @@ a{
     .main_container{
         min-width: 300px;
         max-width: 30%;
-        border-radius: 50px; /*PROPIEDAD CSS3*/
+        border-top-right-radius: 50px; /*PROPIEDAD CSS3*/
+        border-top-left-radius: 50px; /*PROPIEDAD CSS3*/
     }    
 }
