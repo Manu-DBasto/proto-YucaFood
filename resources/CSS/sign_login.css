@@ -68,6 +68,9 @@ a{
     background-color: white;
 }
 
+.subButton{
+    border-radius: 50%;
+}
 
 /*Estilos para movil*/
 @media (max-width: 400px) {  /*@media es una regla CSS3*/

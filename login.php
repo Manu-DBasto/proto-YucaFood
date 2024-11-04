@@ -36,7 +36,7 @@
                     </div>
                 </div>
             
-                <input type="submit" name="" class="btn btn-danger" id="" value="Iniciar sesión">
+                <input type="submit" name="" class="btn btn-danger subButton" id="" value="Iniciar sesión">
             </form>
 
             <div>
