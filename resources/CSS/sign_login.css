@@ -6,6 +6,8 @@ body{
 
 
 main{
+    margin: 0;
+    padding: 0;
     width: 100vw; /*vw VALOR CSS3*/
     height: 100vh; /*vh VALOR CSS3*/
     display: flex; /*PROPIEDAD Y VALOR CSS3*/
