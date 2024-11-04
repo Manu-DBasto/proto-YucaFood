@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,11 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body> 
+
+<body>
+    <nav>
+        <?php include("../modules/nav.php") ?>
+    </nav>
     <main id="main_container">
         <article>
             <div class="dishImage" style="background-image: url('../images/foodImages/panuchos.jpg');"></div>
@@ -55,4 +60,5 @@
         </article>
     </main>
 </body>
+
 </html>

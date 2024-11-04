@@ -17,8 +17,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <main> <!---DEFINE EL CUERPO PRINCIPAL DEL DOCUMENTO-->
-        <figure> <!--DEFINE LA INSERCION DE ALGUN CONTENIDO MULTIMEDIA-->
+    <main> 
+        <figure> 
             <img class="logo" src="./resources/images/logo.png" alt="">
         </figure>
 
