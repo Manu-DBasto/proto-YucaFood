@@ -24,7 +24,7 @@
 
         
         <div class="main_container">
-            <h3 class="titulo">Registro</h3>
+            <h3 class="title">Registro</h3>
             <form action="../../login.php">
                 <div class="separator">
                     <div class="cont_input">
