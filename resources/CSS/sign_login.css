@@ -65,12 +65,9 @@ a{
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: blue;
 }
 
-.subButton{
-    border-radius: 50%;
-}
 
 /*Estilos para movil*/
 @media (max-width: 400px) {  /*@media es una regla CSS3*/
