@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,17 +6,13 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
+body {
     background-image: url('../images/fondo.webp');
     background-color: rgba(178, 62, 65, 0.9) !important;
     background-blend-mode: darken;
 }
 
-main{
-    width: 100%;
-    height: 100%;
+main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -25,7 +21,7 @@ main{
     padding: 20px;
 }
 
-article{
+article {
     background-color: #F3F0E1;
     border-radius: 15px;
     display: flex;
@@ -33,7 +29,7 @@ article{
     height: fit-content;
 }
 
-article .dishImage{
+article .dishImage {
     width: 330px;
     height: 300px;
     border-top-left-radius: 15px;
@@ -42,7 +38,7 @@ article .dishImage{
     background-position-x: center;
 }
 
-.dishData{
+.dishData {
     padding-right: 10px;
     padding-top: 10px;
     width: 220px;
@@ -51,21 +47,23 @@ article .dishImage{
     justify-content: space-between;
 }
 
-.dishTitle{
+.dishTitle {
     font-size: larger;
     color: #81282A;
 }
 
-.description{
+.description {
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
-    overflow: hidden; /*hidden es un valor de CSS3*/
-    text-overflow: ellipsis; /*ellipsis es un valor de CSS3*/
+    overflow: hidden;
+    /*hidden es un valor de CSS3*/
+    text-overflow: ellipsis;
+    /*ellipsis es un valor de CSS3*/
 }
 
 
-.dishData .details{
+.dishData .details {
     text-decoration: none;
     text-align: end;
     color: #B23E41;
@@ -74,7 +72,7 @@ article .dishImage{
 
 /*Estilos para movil*/
 @media (max-width: 800px) {
-    .cuerpo_nav{
+    .cuerpo_nav {
         padding: 0;
         margin: 0;
         display: flex;
@@ -83,15 +81,15 @@ article .dishImage{
         padding-right: 10px;
     }
 
-    article{
+    article {
         margin-bottom: 20px;
     }
 
-    .checkbtn{
+    .checkbtn {
         display: block;
     }
-    
-    ul{
+
+    ul {
         z-index: 999;
         position: fixed;
         width: 50%;
@@ -104,28 +102,29 @@ article .dishImage{
         flex-direction: column;
         justify-content: space-between;
     }
-    
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin-right: 50px;
         line-height: 30px;
 
     }
-    
-    nav ul li a{
+
+    nav ul li a {
         font-size: 20px;
         color: #494949;
     }
-    
-    a:hover,a.active{
+
+    a:hover,
+    a.active {
         font-weight: bolder;
     }
-    
-    #check:checked ~ ul{
+
+    #check:checked~ul {
         left: 0;
     }
 
-    .contLogo{
+    .contLogo {
         background-color: #B23E41;
         margin: 0;
         padding: 0;
@@ -133,23 +132,23 @@ article .dishImage{
         text-align: center;
     }
 
-    #cerrarSesion{
+    #cerrarSesion {
         background: #B23E41;
         width: 100%;
         height: 50px;
         display: flex;
         align-items: center;
     }
-    
-    #cerrarSesion a{
-        color: white;
-    }
-    
-    #cerrarSesion a:hover{
+
+    #cerrarSesion a {
         color: white;
     }
 
-    .titulo{
+    #cerrarSesion a:hover {
+        color: white;
+    }
+
+    .titulo {
         width: 250px;
     }
 }
