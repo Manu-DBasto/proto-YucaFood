@@ -49,31 +49,6 @@ article{
     color: #B23E41;
 }
 
-nav{
-    background: rgba(0, 0, 0, 0.2);
-    height: 80px;
-    width: 100%;
-    display: flex;  
-    box-shadow: 0px 3px -8px rgba(0,0,0,0.2);
-}
-
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-}
 
 a.active,a:hover{
     background: #B23E41;
@@ -258,4 +233,36 @@ a.active,a:hover{
         justify-content: space-between;
         padding: 0 10px 0 10px;
     }
+}
+nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.2);
+    height: 80px;
+    width: 100%;
+    display: flex;  
+    box-shadow: 0px 3px -8px rgba(0,0,0,0.2);
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
 }

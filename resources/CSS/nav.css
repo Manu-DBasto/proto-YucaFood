@@ -1,0 +1,81 @@
+.custom-navbar{
+    height: 100%;
+    width: 100%;
+}
+.custom-navbar .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8d1b24;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+/* Logo y menú de navegación */
+.custom-navbar .navbar-left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.custom-navbar .navbar-left img {
+  height: 70px;
+  margin-right: 20px;
+}
+
+.custom-navbar .des-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.custom-navbar .des-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.custom-navbar .des-menu a:hover {
+  color: #ffd24a;
+}
+
+/* Botón de cerrar sesión e icono de búsqueda alineados a la derecha */
+.custom-navbar .navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  height: 100%;
+  width: 50%;
+  justify-content: right;
+}
+
+.custom-navbar .btn-cerrar-sesion a {
+  color: black;
+  background-color: #ffc107;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-right: 10px; /* Espacio entre botón y icono de búsqueda */
+}
+
+.custom-navbar .btn-cerrar-sesion a:hover {
+  background-color: #e0a800;
+}
+
+.custom-navbar .icon-div {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .icon-div svg {
+  cursor: pointer;
+  transition: fill 0.3s;
+}
+
+.custom-navbar .icon-div svg:hover {
+  fill: rgba(255, 255, 255, 1);
+}
