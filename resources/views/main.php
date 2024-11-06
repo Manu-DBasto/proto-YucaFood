@@ -19,24 +19,39 @@
 <body> 
     <main id="main_container">
         <article>
-            <h5>Panuchos</h5>
-            <p class="description">Los panuchos son antojitos yucatecos que consisten en tortillas de maíz rellenas de frijoles refritos y luego fritas. Se suelen abrir por un extremo y se rellenan con carne, generalmente pavo o cerdo, así como con salsa, aguacate y otros ingredientes al gusto.</p>
-            <a href="#" class="details"> <p>Ver detalles... <i class="fa-solid fa-chevron-right"></i></p></a><!--Uso esta etiqueta para navegar con AJAX-->
+            <div class="dishImage" style="background-image: url('../images/foodImages/panuchos.jpg');"></div>
+            <div class="dishData">
+                <h5 class="dishTitle">Panuchos</h5>
+                <p class="description">Los panuchos son antojitos yucatecos que consisten en tortillas de maíz rellenas de frijoles refritos y luego fritas. Se suelen abrir por un extremo y se rellenan con carne, generalmente pavo o cerdo, así como con salsa, aguacate y otros ingredientes al gusto.</p>
+                <a href="#" class="details"> <p>Ver detalles... <i class="fa-solid fa-chevron-right"></i></p></a><!--Uso esta etiqueta para navegar con AJAX-->
+            </div>
         </article>
+
         <article>
-            <h5>Pib</h5>
-            <p class="description">Es un tamal grande y redondo o cuadrado hecho con masa de maíz, manteca de cerdo, chile morrón, cebolla, epazote y frijol negro llamado espelón. Además, lleva carne de gallina o puerco y se envuelve en hojas de plátano antes de ser horneado enterrado en un horno de tierra.</p>
-            <a href="#" class="details"> <p>Ver detalles... <i class="fa-solid fa-chevron-right"></i><p></p></a>
+            <div class="dishImage" style="background-image: url('../images/foodImages/pib.jpg');"></div>
+            <div class="dishData">
+                <h5 class="dishTitle">Pib</h5>
+                <p class="description">Es un tamal grande y redondo o cuadrado hecho con masa de maíz, manteca de cerdo, chile morrón, cebolla, epazote y frijol negro llamado espelón. Además, lleva carne de gallina o puerco y se envuelve en hojas de plátano antes de ser horneado enterrado en un horno de tierra.</p>
+                <a href="#" class="details"> <p>Ver detalles... <i class="fa-solid fa-chevron-right"></i><p></p></a>
+            </div>
         </article>
+
         <article>
-            <h5>Relleno negro</h5>
-            <p class="description">El relleno negro es un platillo elaborado con carne de pavo o cerdo, cocida con chiles secos, especias y chocolate, lo que le confiere un sabor único y oscuro. Se sirve comúnmente durante celebraciones especiales en la región yucateca.</p>
-            <a href="#" class="details"> <p>Ver detalles... <i class="fa-solid fa-chevron-right"></i></p></a>
+            <div class="dishImage" style="background-image: url('../images/foodImages/rellenoNegro.jpeg');"></div>
+            <div class="dishData">
+                <h5 class="dishTitle">Relleno negro</h5>
+                <p class="description">El relleno negro es un platillo elaborado con carne de pavo o cerdo, cocida con chiles secos, especias y chocolate, lo que le confiere un sabor único y oscuro. Se sirve comúnmente durante celebraciones especiales en la región yucateca.</p>
+                <a href="#" class="details"> <p>Ver detalles... <i class="fa-solid fa-chevron-right"></i></p></a>
+            </div>
         </article>
+        
         <article>
-            <h5>Cochinita Pibíl</h5>
-            <p class="description">La cochinita pibil es un platillo tradicional de la península de Yucatán, México. Consiste en cerdo marinado con achiote y jugo de naranja agria, envuelto en hojas de plátano y cocido a fuego lento en un horno enterrado. Esto le da un sabor único y jugoso, con notas ahumadas.</p>
-            <a href="#" class="details"> <p> Ver detalles... <i class="fa-solid fa-chevron-right"></i></p></a>
+            <div class="dishImage" style="background-image: url('../images/foodImages/cochinitaPibil.jpeg');"></div>
+            <div class="dishData">
+                <h5 class="dishTitle">Cochinita Pibíl</h5>
+                <p class="description">La cochinita pibil es un platillo tradicional de la península de Yucatán, México. Consiste en cerdo marinado con achiote y jugo de naranja agria, envuelto en hojas de plátano y cocido a fuego lento en un horno enterrado. Esto le da un sabor único y jugoso, con notas ahumadas.</p>
+                <a href="#" class="details"> <p> Ver detalles... <i class="fa-solid fa-chevron-right"></i></p></a>
+            </div>
         </article>
     </main>
 </body>
