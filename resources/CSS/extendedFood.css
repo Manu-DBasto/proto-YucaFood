@@ -44,8 +44,8 @@ main {
 }
 
 .foodInfo h3,
-.relatedFoods h5,
-.restaurantsTitle h5 {
+.secTitle h5,
+.secTitle h5 {
     color: #81282A;
 }
 
@@ -76,10 +76,15 @@ main {
 }
 
 .relatedFoods {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.secTitle {
+    width: 100%;
+    padding-left: 9%;
 }
 
 @media (max-width: 700px) {

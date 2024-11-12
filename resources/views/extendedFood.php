@@ -38,9 +38,9 @@
             </div>
         </div>
 
-        <div class="restaurantsTitle">
-            <h5>Restaurantes que lo ofrecen:</h5>
             <div class="restaurants">
+                <div class="secTitle"><h5>Restaurantes que lo ofrecen:</h5></div>
+                
                 <div class="restaurantsMap">
                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29953.03619274456!2d-89.29698848673675!3d20.211938046908685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRestaurantes!5e0!3m2!1ses-419!2smx!4v1731108813596!5m2!1ses-419!2smx" width="600" height="450" style="border-radius:10px; border: 1px solid rgb(200, 200, 200);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -49,7 +49,7 @@
         </div>
         
         <div class="relatedFoods">
-            <h5>Otros platillos:</h5>
+            <div class="secTitle"><h5>Otros platillos:</h5></div>
             <?php include("../modules/relatedDishes.php"); ?>
         </div>
     </main>
