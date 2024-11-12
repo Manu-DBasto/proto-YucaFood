@@ -1,0 +1,56 @@
+.dishes {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    column-gap: 15px;
+    overflow-x: scroll;
+}
+
+div .cardContainer {
+    width: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.dishCard {
+    width: 200px;
+    background-color: #F3F0E1;
+    border-radius: 5px;
+}
+
+.dishImage {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #81282A !important;
+}
+
+.dishInfo {
+    padding: 10px;
+}
+
+div .title {
+    color: #81282A;
+}
+
+.dishInfo a {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    color: #81282A;
+    text-decoration: none;
+}
+
+.dishes::-webkit-scrollbar {
+    height: 10px;
+}
+
+.dishes::-webkit-scrollbar-track {
+    background: #fcf8e5;
+}
+
+.dishes::-webkit-scrollbar-thumb {
+    background: #803b3c;
+    border-radius: 6px;
+}

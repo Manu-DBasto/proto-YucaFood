@@ -1,0 +1,55 @@
+{
+    "restaurants": [
+      {
+        "name": "Taquería Polo",
+        "location": "Calle 48 Sn, 97970 Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "10:00 AM - 8:00 PM"
+      },
+      {
+        "name": "Lorean's Pizzeria",
+        "location": "C. 57 194, 97970 Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "11:00 AM - 10:00 PM"
+      },
+      {
+        "name": "Sultana Restaurante",
+        "location": "Calle 50-a, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "12:00 PM - 9:00 PM"
+      },
+      {
+        "name": "Peregrina Restaurante",
+        "location": "Calle 51, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "1:00 PM - 10:00 PM"
+      },
+      {
+        "name": "Club De Bienestar Ivon",
+        "location": "Calle 24, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "6:00 AM - 8:00 PM"
+      },
+      {
+        "name": "The Margarita's",
+        "location": "Calle 37, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "9:00 AM - 11:00 PM"
+      },
+      {
+        "name": "Restaurante El Huinic De La Ermita",
+        "location": "Calle 50-a, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "8:00 AM - 9:00 PM"
+      },
+      {
+        "name": "Restaurante Bar Flippers",
+        "location": "Calle 51, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "7:00 AM - 10:00 PM"
+      },
+      {
+        "name": "Venta De Pescado Frito",
+        "location": "Calle 37, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "10:00 AM - 8:00 PM"
+      },
+      {
+        "name": "Cocina Económica Doña Ofe",
+        "location": "Calle 24, Tekax de Álvaro Obregón, Yucatán",
+        "schedule": "7:00 AM - 9:00 PM"
+      }
+    ]
+  }
+  

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF9D8 !important;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.food {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.foodImageContainer,
+.foodInfo {
+    height: auto;
+    width: 600px;
+    aspect-ratio: 3 / 2;
+}
+
+.foodImage {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.foodInfo h3,
+.relatedFoods h5,
+.restaurantsTitle h5 {
+    color: #81282A;
+}
+
+.restaurants {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.restaurantsMap {
+    aspect-ratio: 3/2;
+}
+
+.locations {
+    width: 500px;
+    aspect-ratio: 3/2;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 0px !important;
+}
+
+.relatedFoods {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 700px) {
+    .restaurantsMap {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+}
