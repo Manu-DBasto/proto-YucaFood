@@ -2,21 +2,25 @@
     <link rel="stylesheet" href="../CSS/nav.css">
 </head>
 <div class="custom-navbar">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
     <div class="navbar">
 
         <div class="navbar-left">
             <div><img src="../images/logo.png" alt=""></div>
             <div class="des-menu">
+
+            <?php // agregar los enlaces de todas las opciones del menu
+            ?>
                 <a href="#">Restaurantes</a>
                 <a href="#">Chat</a>
                 <a href="#">Contacto</a>
             </div>
         </div>
 
-        
+
         <div class="navbar-right">
             <div class="btn-cerrar-sesion">
-                <a href="./signin.php">Cerrar sesión</a>
+                <a href="../views/signin.php">Cerrar sesión</a>
             </div>
             <div class="icon-div">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -29,3 +33,9 @@
         </div>
     </div>
 </div>
+<script>
+    function toggleMenu() {
+        const navbarContainer = document.querySelector('.custom-navbar');
+        navbarContainer.classList.toggle('show-menu');
+    }
+</script>
