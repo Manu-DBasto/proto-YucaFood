@@ -53,6 +53,7 @@
             <?php include("../modules/relatedDishes.php"); ?>
         </div>
     </main>
+    <footer> <?php include ("../modules/footer.php"); ?></footer>
 </body>
 
 <script>
