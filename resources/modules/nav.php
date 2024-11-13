@@ -16,7 +16,7 @@
         
         <div class="navbar-right">
             <div class="btn-cerrar-sesion">
-                <a href="../views/signin.php">Cerrar sesión</a>
+                <a href="./signin.php">Cerrar sesión</a>
             </div>
             <div class="icon-div">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
