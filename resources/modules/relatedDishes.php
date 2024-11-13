@@ -16,8 +16,8 @@
         <div class="dishCard">
             <div class="dishImage"></div>
             <div class="dishInfo">
-                <h4 class="title">Food</h4>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                <h4 class="title">Food</h4> <!--agregar nombre de comida-->
+                <a href="<?php //agregar enlace a la comiga ?>"><i class="fa-solid fa-chevron-right"></i></a>
             </div>
         </div>
     </div>
@@ -26,8 +26,8 @@
         <div class="dishCard">
             <div class="dishImage"></div>
             <div class="dishInfo">
-                <h4 class="title">Food</h4>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                <h4 class="title">Food</h4><!--agregar nombre de comida-->
+                <a href="<?php //agregar enlace a la comiga ?>"><i class="fa-solid fa-chevron-right"></i></a>
             </div>
         </div>
     </div>
@@ -36,8 +36,8 @@
         <div class="dishCard">
             <div class="dishImage"></div>
             <div class="dishInfo">
-                <h4 class="title">Food</h4>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                <h4 class="title">Food</h4><!--agregar nombre de comida-->
+                <a href="<?php //agregar enlace a la comiga ?>"><i class="fa-solid fa-chevron-right"></i></a>
             </div>
         </div>
     </div>
@@ -46,8 +46,8 @@
         <div class="dishCard">
             <div class="dishImage"></div>
             <div class="dishInfo">
-                <h4 class="title">Food</h4>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                <h4 class="title">Food</h4><!--agregar nombre de comida-->
+                <a href="<?php //agregar enlace a la comiga ?>"><i class="fa-solid fa-chevron-right"></i></a>
             </div>
         </div>
     </div>
