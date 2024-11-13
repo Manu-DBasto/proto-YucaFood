@@ -1,8 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
+/* Estilos generales */
+.footer-concainer {
+  background-color: #f5e7cf;
+  font-family: Arial, sans-serif;
+  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+/* Estilos para el título de redes sociales */
+.footer-title h1 {
+  font-size: 24px;
+  color: #5a458c;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Sección de enlaces a redes sociales */
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.footer-media .icon {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  display: inline-block;
+}
+
+
+.footer-media .media a {
+  color: #5a458c;
+  text-decoration: none;
+}
+.footer-media .media span {
+    color: #5a458c;
+    text-decoration: none;
+  }
+.footer-media .media a:hover {
+  text-decoration: underline;
+}
+
+/* Sección de navegación inferior */
+.footer-down {
+  background-color: #a32333;
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+
+.footer-down a {
+  color: white;
+  font-size: 18px;
+  margin: 0 20px;
+  text-decoration: none;
+
+}
+
+.footer-down a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .footer-media {
+    flex-direction: column;
+  }
+
+  .footer-down a {
+    display: block;
+    margin: 10px 0;
+  }
+}

@@ -59,6 +59,9 @@
             </div>
         </article>
     </main>
+    <footer>
+    <?php include("../modules/footer.php") ?>
+    </footer>
 </body>
 
 </html>
