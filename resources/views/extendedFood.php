@@ -21,7 +21,9 @@
     <main>
         <div class="food"> 
             <div class="foodImageContainer">
-                <div class="foodImage"></div>
+                <div class="foodImage"><!--Pon la foto de la comida como fondo de este div, no como imagen
+                    
+                --></div>
             </div>
             <div class="foodInfo">
                 <h3 class="foodTitle">Panuchos</h3>

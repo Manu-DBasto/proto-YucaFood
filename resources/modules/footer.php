@@ -18,7 +18,7 @@
                 </svg>
             </div>
             <div class="media">
-                <span>Facebook: <a href="#">YucaFood</a></span>
+                <span>Facebook: <a href="<?php //agregar enlace a algun facebook ?>">YucaFood</a></span>
             </div>
         </div>
         <div class="footer-media">
@@ -35,7 +35,7 @@
                 </svg>
             </div>
             <div class="media">
-                <span>Instagram: <a href="#">YucaFood</a></span>
+                <span>Instagram: <a href="<?php //agregar enlace al extendedFood de mi insta ?>">YucaFood</a></span>
             </div>
         </div>
         <div class="footer-media">
@@ -48,15 +48,15 @@
                 </svg>
             </div>
             <div class="media">
-                <span>Twitter: <a href="#">YucaFood</a></span>
+                <span>Twitter: <a href="<?php //agregar enlace al extendedFood de tu twitter ?>">YucaFood</a></span>
             </div>
         </div>
 
     </div>
     <div class="footer-down">
         <a href="#">Restaurantes</a>
-        <a href="#">Chat</a>
-        <a href="#">Contacto</a>
+        <a href="<?php //agregar enlace al chat ?>">Chat</a>
+        <a href="<?php //agregar enlace al extendedFood de la página de contactos ?>">Contacto</a>
     </div>
 
 
