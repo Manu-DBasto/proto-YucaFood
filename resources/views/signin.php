@@ -36,19 +36,11 @@
                     </div>
         
                     <div class="cont_input">
-                        <input type="tel" placeholder="Numero telefónico" class="campo" ><!--TEL del atributo type define que se espera un numero telefonico-->
-                    </div>
-        
-                    <div class="cont_input">
                         <input type="password" placeholder="Contraseña" class="campo" >
                     </div>
         
                     <div class="cont_input">
                         <input type="password" placeholder="Confirmar contraseña" class="campo" >
-                    </div>
-    
-                    <div class="cont_input">
-                        <input type="text" placeholder="Pregunta secreta" class="campo" >
                     </div>
                 </div>
                 <input type="submit" class="btn btn-danger" name="" id="" value="Registrarse">
