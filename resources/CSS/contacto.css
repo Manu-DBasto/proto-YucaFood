@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/gris.webp");
+  background-color: rgba(200, 200, 200, 0.9) !important;
+  background-blend-mode: darken;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 60px;
+  padding: 20px;
+}
+
+/* Contenedor principal */
+.contact-container {
+  width: 40%;
+  margin: 100px auto;
+  background: rgba(92, 92, 122, 0.8); /* Fondo semi-transparente */
+  border-radius: 15px;
+  padding: 20px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 90%;
+}
+
+/* Estilo de las secciones */
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #d1d1f0; /* Color del título */
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+.section p {
+  font-size: 16px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Iconos */
+.icon {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #e0e0ff;
+}

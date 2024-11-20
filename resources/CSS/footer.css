@@ -13,6 +13,7 @@
   padding: 20px 0;
   text-align: center;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* Estilos para el título de redes sociales */
@@ -30,6 +31,8 @@
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
+  
+
 }
 
 .footer-media {

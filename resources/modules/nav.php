@@ -9,11 +9,11 @@
             <div><img src="../images/logo.png" alt=""></div>
             <div class="des-menu">
 
-            <?php // agregar los enlaces de todas las opciones del menu
+            <?php
             ?>
-                <a href="#">Restaurantes</a>
-                <a href="#">Chat</a>
-                <a href="#">Contacto</a>
+                <a href="../views/main.php">Restaurantes</a>
+                <a href="../views/chat.php">Chat</a>
+                <a href="../views/contacto.php">Contacto</a>
             </div>
         </div>
 

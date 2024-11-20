@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YucaFood</title>
-    <link rel="stylesheet" href="../CSS/chat.css">
+    <link rel="stylesheet" href="../CSS/contacto.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -23,17 +23,17 @@
         <?php include("../modules/nav.php") ?>
     </nav>
     <main id="main_container">
-        <div class="message-container">
-            <div class="message-box">
-                <div class="header"></div>
-                <div class="body"></div>
+        <div class="contact-container">
+            <div class="section">
+                <h2>Contacto directo</h2>
+                <p><i class="icon">✉</i> Correo: basto3107@gmail.com</p>
+                <p><i class="icon">☎</i> Teléfono: 997-122-3526</p>
             </div>
-            <div class="input-area">
-                <input type="text" placeholder="Escribir mensaje">
-                <select>
-                    <option>Tipo</option>
-                </select>
-                <button>➤</button>
+            <div class="section">
+                <h2>Redes sociales</h2>
+                <p><i class="icon">📘</i> Facebook: YucaFood</p>
+                <p><i class="icon">📸</i> Instagram: @yucaFood</p>
+                <p><i class="icon">🐦</i> Twitter: @yucaFood</p>
             </div>
         </div>
     </main>

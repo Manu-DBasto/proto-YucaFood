@@ -54,9 +54,9 @@
 
     </div>
     <div class="footer-down">
-        <a href="#">Restaurantes</a>
-        <a href="<?php //agregar enlace al chat ?>">Chat</a>
-        <a href="<?php //agregar enlace al extendedFood de la página de contactos ?>">Contacto</a>
+        <a href="../views/main.php">Restaurantes</a>
+        <a href="../views/chat.php">Chat</a>
+        <a href="../views/contacto.php">Contacto</a>
     </div>
 
 
