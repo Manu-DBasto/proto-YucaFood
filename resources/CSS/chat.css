@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/gris.webp');
+    background-color: rgba(178, 62, 65, 0.9) !important;
+    background-blend-mode: darken;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 60px;
+    padding: 20px;
+}
